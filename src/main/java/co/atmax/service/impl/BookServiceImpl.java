@@ -3,8 +3,6 @@ package co.atmax.service.impl;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Enumeration;
-import java.util.Iterator;
-
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -15,7 +13,6 @@ import co.atmax.dao.BookDao;
 import co.atmax.model.LogIn;
 import co.atmax.model.User;
 import co.atmax.service.BookService;
-import co.atmax.validation.service.BookUserValidator;
 
 public class BookServiceImpl implements BookService {
 

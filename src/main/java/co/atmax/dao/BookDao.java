@@ -1,7 +1,5 @@
 package co.atmax.dao;
 
-import java.time.LocalDateTime;
-
 import co.atmax.model.LogIn;
 import co.atmax.model.User;
 
